@@ -90,7 +90,7 @@ video_encode_test(char *outputfilename)
 
    encode_config_format(video_encode, info.width, info.height, 30);
    encode_config_encoding(video_encode, OMX_VIDEO_CodingAVC);
-   encode_config_bitrate(video_encode, 16000000 /* 8388608 */);
+   encode_config_bitrate(video_encode, 512000 /* 8388608 */);
 
    //encode_config_low_latency(video_encode, true);
 
